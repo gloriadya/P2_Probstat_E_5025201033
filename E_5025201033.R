@@ -110,20 +110,37 @@ ggplot(data, aes(x = Group, y = Length)) +
   ylab("Length (cm)")
 
 # No 5a
-install.packages("multcompView")
-library(readr)
-library(ggplot2)
-library(multcompView)
-library(dplyr)
+GTL <- read_csv("/home/gloria/Downloads/GTL.csv")
+head(GTL)
+str(GTL)
+
+qplot(x = Temp, y = Light, geom = "point", data = GTL) +
+  facet_grid(.~Glass, labeller = label_both)
 
 # No 5b
+GTL$Glass <- as.factor(GTL$Glass)
+GTL$Temp_Factor <- as.factor(GTL$Temp)
+str(GTL)
 
+anova <- aov(Light ~ Glass*Temp_Factor, data = GTL)
+summary(anova)
 
 # No 5c
-
+data_summary <- group_by(GTL, Glass, Temp) %>%
+  summarise(mean=mean(Light), sd=sd(Light)) %>%
+  arrange(desc(mean))
+print(data_summary)
 
 # No 5d
-
+tukey <- TukeyHSD(anova)
+print(tukey)
 
 # No 5e
+tukey.cld <- multcompLetters4(anova, tukey)
+print(tukey.cld)
 
+cld <- as.data.frame.list(tukey.cld$`Glass:Temp_Factor`)
+data_summary$Tukey <- cld$Letters
+print(data_summary)
+
+write.csv("GTL_summary.csv")
