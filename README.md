@@ -2,10 +2,10 @@
 **Gloria Dyah Pramesti - Probstat E - 5025201033**
 <br>**Soal No. 1**<br>
 * Memasukkan semua data yang ada pada tabel pada sebuah variabel, kemudian dilakukan cek data menggunakan data.frame dan menghasilkan seperti berikut:<br>
-<br>![1](https://user-images.githubusercontent.com/91613088/170871950-07c5a1f7-5776-4a1f-8aa2-1080536ab944.png)<br>
+<br>![1 1](https://user-images.githubusercontent.com/91613088/170880782-5f7e2390-b4f6-495d-b2a9-6527b2f9464f.png)<br>
 * a. Carilah Standar Deviasi dari data selisih pasangan pengamatan tabel diatas
 * Standar deviasi sebelum dan sesudah adalah berikut:
-<br>![1a](https://user-images.githubusercontent.com/91613088/170872306-bf4dbfac-0435-4c15-aa2c-87174494702d.png)<br>
+<br>![1a](https://user-images.githubusercontent.com/91613088/170880779-9b795064-c1cc-4bfd-bf8d-a6ca9a4c747a.png)<br>
 * b. Carilah nilai t (p-value)
 <br>![1b](https://user-images.githubusercontent.com/91613088/170872337-78ba1e9c-a1ba-456e-8648-4ee017c885db.png)<br>
 * c. Tentukanlah apakah terdapat pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴 jika diketahui tingkat signifikansi 𝛼 = 5% serta H0 : “tidak ada pengaruh yang signifikan secara statistika dalam hal kadar saturasi oksigen , sebelum dan sesudah melakukan aktivitas 𝐴”
