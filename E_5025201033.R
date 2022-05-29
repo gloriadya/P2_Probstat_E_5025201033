@@ -1,5 +1,5 @@
 # No 1
-x <- c(78, 75, 67, 77, 70, 72, 28, 74, 77)
+x <- c(78, 75, 67, 77, 70, 72, 78, 74, 77)
 y <- c(100, 95, 70, 90, 90, 90, 89, 90, 100)
 
 # No 1a
@@ -110,7 +110,11 @@ ggplot(data, aes(x = Group, y = Length)) +
   ylab("Length (cm)")
 
 # No 5a
-
+install.packages("multcompView")
+library(readr)
+library(ggplot2)
+library(multcompView)
+library(dplyr)
 
 # No 5b
 
