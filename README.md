@@ -13,6 +13,8 @@
 <br>![1c 1](https://user-images.githubusercontent.com/91613088/170872414-a42efde5-db22-412c-9a45-e8c9219f53d3.png)<br>
 <br>Kemudian melihat pengaruh jika tingkat signifikasi sebesar 5% adalah sebagai berikut:<br>
 <br>![1c 2](https://user-images.githubusercontent.com/91613088/170872576-2d091923-e64f-4371-a7f6-57d66da2d1e5.png)<br>
+<br>Bisa dilihat bahwa yang berbeda adalah p-value dan df. Sehingga tidak memiliki pengaruh yang signifikan secara statistika
+
 
 <br>**Soal No. 2**<br>
 * a. Apakah Anda setuju dengan klaim tersebut?
