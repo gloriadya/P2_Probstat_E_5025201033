@@ -22,5 +22,5 @@ b. Jelaskan maksud dari output yang dihasilkan!
 <br>![2b](https://user-images.githubusercontent.com/91613088/170873343-39a10de9-e46b-4910-8a1e-f8b2bd3749b0.png)<br>
 * Hasil null hypothesis: H0: μ = 20000
 * Hasil alternative hypothesis: H1: μ > 20000
-c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
+<br>c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!<br>
 * Maka, nilai z: 8,9744, dan kesimpulannya adalah diperkirakan nilai P adalah 0 dan dikemudikan rata-rata lebih dari 20.000 kilometer per tahun
