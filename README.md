@@ -59,7 +59,13 @@
 
 <br>**Soal No. 5**<br>
 * a. Buatlah plot sederhana untuk visualisasi data
+<br>![5a](https://user-images.githubusercontent.com/91613088/170881564-082337c7-3d9d-4d21-8e24-40e18235637e.png)<br>
+<br>![5a 1](https://user-images.githubusercontent.com/91613088/170881574-11e31ab9-dc3b-439c-8f45-80e67e87f16c.png)<br>
+<br>![5a 2](https://user-images.githubusercontent.com/91613088/170881569-a8006b75-d6dd-44bf-bb8c-1967dc334ab4.png)<br>
 * b. Lakukan uji ANOVA dua arah
+<br>![5b](https://user-images.githubusercontent.com/91613088/170881896-5f2809fd-0109-4e6e-a3ba-7cada2e80329.png)<br>
 * c. Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
+<br>![5c](https://user-images.githubusercontent.com/91613088/170881895-afece41a-b517-4ab5-adfb-56217822e705.png)<br>
 * d. Lakukan uji Tukey
 * e. Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
+<br>![5e](https://user-images.githubusercontent.com/91613088/170881889-427926e9-a5cc-4d98-8659-4c8ff0b966ee.png)<br>
