@@ -24,3 +24,42 @@
 <br>Hasil alternative hypothesis: H1: μ > 20000<br>
 * c. Buatlah kesimpulan berdasarkan P-Value yang dihasilkan!
 * Maka, nilai z: 8,9744, dan kesimpulannya adalah diperkirakan nilai P adalah 0 dan dikemudikan rata-rata lebih dari 20.000 kilometer per tahun
+
+<br>**Soal No. 3**<br>
+* a. H0 dan H1
+<br>H0 : mu = mu0, mu tidak sama dengan mu0<br>
+* b. Hitung Sampel Statistik
+<br>Hasil hitung sampel statistik adalah sebagai berikut:<br>
+<br>![3b](https://user-images.githubusercontent.com/91613088/170877067-7064d8de-2753-4b6e-a53e-fafc07dfe63f.png)<br>
+* c. Lakukan Uji Statistik (df =2)
+* d. Nilai Kritikal
+<br>![3d](https://user-images.githubusercontent.com/91613088/170878178-69507865-cd32-4f8e-b1b0-bfe251b4bc6a.png)<br>
+* e. Keputusan
+<br>Gagal Tolak H0<br>
+* f. Kesimpulan
+<br>Kesimpulan yang didapatkan yaitu perbedaan rata-rata yang terjadi tidak ada jika dilihat dari uji statistik dan akan ada tetapi tidak signifikan jika dipengaruhi nilai kritikal<br>
+
+<br>**Soal No. 4**<br>
+* a. Buatlah masing masing jenis spesies menjadi 3 subjek "Grup" (grup 1,grup 2,grup 3). Lalu Gambarkan plot kuantil normal untuk setiap kelompok dan lihat apakah ada outlier utama dalam homogenitas varians.
+<br>![4a](https://user-images.githubusercontent.com/91613088/170879853-06f5c766-2193-4012-93bb-0072ea68bd8b.png)<br>
+<br>![4a 1](https://user-images.githubusercontent.com/91613088/170879866-e16179fd-01b5-40b9-b897-16d17662ffa3.png)<br>
+<br>![4a 2](https://user-images.githubusercontent.com/91613088/170879864-b4320ccb-73c3-4555-950a-d74e4025178d.png)<br>
+<br>![4a 3](https://user-images.githubusercontent.com/91613088/170879861-a854ee20-18b6-455b-9775-860699f12ff0.png)<br>
+* b. Carilah atau periksalah Homogeneity of variances nya , Berapa nilai p yang didapatkan? , Apa hipotesis dan kesimpulan yang dapat diambil ?
+<br>![4b](https://user-images.githubusercontent.com/91613088/170879958-6b9a47cc-5468-4683-8881-089a2aeccccd.png)<br>
+* c. Untuk uji ANOVA (satu arah), buatlah model linier dengan Panjang versus Grup dan beri nama model tersebut model 1.
+<br>![4c](https://user-images.githubusercontent.com/91613088/170880016-4e662157-6738-4c4a-a231-b6a7067a521f.png)<br>
+* d. Dari Hasil Poin C, Berapakah nilai-p ? , Apa yang dapat Anda simpulkan dari H0?
+<br>Didapatkan nilai dari p-value yaitu = 0.8054<br>
+* e. Verifikasilah jawaban model 1 dengan Post-hoc test Tukey HSD, dari nilai p yang didapatkan apakah satu jenis kucing lebih panjang dari yang lain, jelaskan.
+<br>![4e 1](https://user-images.githubusercontent.com/91613088/170880091-7f2fc5dc-9085-4555-9fef-8bdb4fe74f21.png)<br>
+<br>![4e 2](https://user-images.githubusercontent.com/91613088/170880068-bb954843-4be7-44af-8a31-dc2dfb5d3dba.png)<br>
+* f. Visualisasikan data dengan ggplot2
+<br>![4f](https://user-images.githubusercontent.com/91613088/170880131-9cc5984c-2e09-46b3-a140-d29f1bceb4f1.png)<br>
+
+<br>**Soal No. 5**<br>
+* a. Buatlah plot sederhana untuk visualisasi data
+* b. Lakukan uji ANOVA dua arah
+* c. Tampilkan tabel dengan mean dan standar deviasi keluaran cahaya untuk setiap perlakuan (kombinasi kaca pelat muka dan suhu operasi)
+* d. Lakukan uji Tukey
+* e. Gunakan compact letter display untuk menunjukkan perbedaan signifikan antara uji Anova dan uji Tukey
