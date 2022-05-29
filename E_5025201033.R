@@ -1,27 +1,26 @@
 # No 1
-Responden <- c(1, 2, 3, 4, 5, 6, 7, 8, 9)
-X <- c(78, 75, 67, 77, 70, 72, 78, 74, 77)
-Y <- c(100, 95, 70, 90, 90, 90, 89, 90, 100)
+x <- c(78, 75, 67, 77, 70, 72, 28, 74, 77)
+y <- c(100, 95, 70, 90, 90, 90, 89, 90, 100)
 
 # No 1a
-dataframe = data.frame(Responden, X, Y)
+dataframe <- data.frame(
+  group = rep(c("sebelum", "sesudah"), each = 9),
+  saturation = c(x, y)
+  )
 
-sdev = sd(dataframe$X-dataframe$Y)
-sdev
+print(dataframe)
+sd_x <- sd(x)
+sd_x
+
+sd_y <- sd(y)
+sd_y
 
 # No 1b
-h = dataframe$Y - dataframe$X
-t_mu = mean(h)
-t_zbar = mean(h[1:6])
-t_n = 6
-t_s = sd(h[1:6])
-t = (t_zbar - t_mu) / (t_s/sqrt(t_n))
-t
-pval = 2 * pt(-abs(t), df = t_n - 1)
-pval
+t.test(x, y, alternative = "greater", var.equal = FALSE)
 
 # No 1c
-t.test(h, alternative = 'two.sided', mu = t_mu)
+var.test(x, y)
+t.test(x, y, var.equal = TRUE)
 
 # No 2
 install.packages("BSDA")
